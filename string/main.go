@@ -5,10 +5,12 @@ import (
 	"fmt"
 )
 
-//测试字符串相关算法题
+//test string alg
 
 func main() {
-	//测试Str2int
+	fmt.Println("============================================")
+	fmt.Println("test Str2int")
+	fmt.Println("============================================")
 	fmt.Println(term.Str2int(""))
 	fmt.Println(term.Str2int("-"))
 	fmt.Println(term.Str2int("123a4"))
@@ -17,6 +19,9 @@ func main() {
 	fmt.Println(term.Str2int("2147483647"))
 	fmt.Println(term.Str2int("2147483648"))
 
-	//============================================
+	fmt.Println("============================================")
+	fmt.Println("test kmpSearch")
+	fmt.Println("============================================")
 
+	fmt.Println(term.KmpSearch("adfeababcbcab", "cbcab"))
 }
