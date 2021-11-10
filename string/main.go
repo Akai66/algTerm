@@ -20,7 +20,12 @@ func main() {
 	fmt.Println(term.Str2int("2147483648"))
 
 	fmt.Println("============================================")
-	fmt.Println("test kmpSearch")
+	fmt.Println("test ForceStrSearch")
+	fmt.Println("============================================")
+	fmt.Println(term.ForceStrSearch("adfeababcbcab", "eaba"))
+
+	fmt.Println("============================================")
+	fmt.Println("test KmpSearch")
 	fmt.Println("============================================")
 
 	fmt.Println(term.KmpSearch("adfeababcbcab", "cbcab"))
