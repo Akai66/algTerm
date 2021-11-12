@@ -29,4 +29,10 @@ func main() {
 	fmt.Println("============================================")
 
 	fmt.Println(term.KmpSearch("adfeababcbcab", "cbcab"))
+
+	fmt.Println("============================================")
+	fmt.Println("test SundaySearch")
+	fmt.Println("============================================")
+
+	fmt.Println(term.SundaySearch("adfeababcbcab", "af"))
 }
